@@ -89,7 +89,7 @@ class AVLTree:
         return root
 
     # Hàm in cây theo thứ tự Tiền tố (Pre-order)
-def pre_order(self, root):
+    def pre_order(self, root):
         if not root:
             return
         print(f"{root.key} ", end="")
